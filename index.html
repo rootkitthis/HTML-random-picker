@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="script.js" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <title>Random Item Picker</title>
 </head>
 <body>
@@ -14,9 +17,9 @@
         <p></p>
 
         <input type="text" id="inputBox" class="inputBox" placeholder="Enter items to choose from separated by commas">
-        <button onclick="pickForMe()">Choose For Me</button>
+        <button class="chooseforme" onclick="pickForMe()">Choose For Me</button>
         <p id="theChoice"></p>
-        <button onclick="clearButton()">Clear</button>
+        <button class="clear" onclick="clearButton()">Clear</button>
 
     </div>
 
