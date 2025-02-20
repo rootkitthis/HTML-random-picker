@@ -87,3 +87,8 @@ h1 {
     margin-bottom: 1rem;
     padding-left: 2rem;
 }
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
