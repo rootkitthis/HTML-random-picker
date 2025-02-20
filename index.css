@@ -59,6 +59,8 @@ h1 {
     line-height: 1.3;
     position: relative;
     text-align: left;
+    position: relative;
+    left: 35%;
 }
 
 .clear {
@@ -75,10 +77,13 @@ h1 {
     line-height: 1.3;
     position: relative;
     text-align: left;
+    position: relative;
+    left: 45%;
 }
 
 
 #theChoice {
     margin-top: 0rem;
     margin-bottom: 1rem;
+    padding-left: 2rem;
 }
